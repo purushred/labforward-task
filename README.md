@@ -25,6 +25,7 @@ The following enhancements shall be done to the codebase if allowed to work furt
 * Pagination implementation to the Get/Search REST APIs
 * Swagger UI implementation
 * Code coverage
+* Performance/Load testing and optimization of code.
 
 ## Labforward UI
 A simple UI is implemented to navigate above REST APIs. 
