@@ -15,6 +15,13 @@ This repository contains backend codebase for Labforward code challenge.
     * Delete (To delete all records) - `DELETE` `/api/v1/lab-notes`
     * Search - `GET` `/api/v1/lab-notes/search?q=searchstring`
 
+## Local Development
+* Required softwares to run application
+   * Java11, Maven 3.6.3, ElasticSearch 7.13.0
+   * Download ElasticSearch and run `elasticsearch.bat` from `elasticsearch-7.13.0\bin` directory to start the ElasticSearch.
+* To run application execute command ` mvn spring-boot:run`.
+* Launch UI from `http://localhost:8080`
+
 ## Efforts spent on development
 Total hours spent on development of the application is as follows.
 * Back-end development: 3.5 hours
